@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.container{
+
+}
+
+.unreveald{
+  background-color: gray;
+}
+.revealed{
+  background-color: gainsboro;
+}
+
+.tenFields{
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(10,20px);
+  grid-template-rows: repeat(10,20px);
+  border: 1px solid black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
